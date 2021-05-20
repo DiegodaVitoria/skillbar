@@ -147,3 +147,14 @@ html,body{
 .progress-line.reactjs span::after{
  content: "75%";
 }
+
+
+@media (max-width: 640px) {
+ .skills-bar{
+  width: 340px;
+  height: 90%;
+ }
+ .skills-bar .bar:first-child {
+  margin-top: 100px;
+}
+}
